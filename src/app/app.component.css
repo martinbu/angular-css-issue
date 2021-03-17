@@ -1,0 +1,15 @@
+:host {
+  --borderThickness: 5px 10px 15px 20px;
+}
+
+.b {
+  border-width: var(--borderThickness);
+  border-style: solid;
+  border-color: black;
+
+  /* Workaround */
+  /*
+    border: 0 solid black;
+    border-width: var(--borderThickness);
+  */
+}
